@@ -82,5 +82,10 @@ crontab -e
       * cpu_kernel (Percentage of cpu kernel)
       * disk_io (measures active disk I/O time)
       * disk_available (disk space)
+    * Usage:
+      * ``` ./scripts/host_usage.sh localhost 5432 host_agent postgres psql_password ```
 * crontab:
-     * This script allows host_usage.sh to excute every minute 
+     * This script allows the continuous execution (every minute) of host_usage.sh script: 
+       1. Edit crontab: ``` crontab -e ```
+       2. Add the below code to the crontab editor:
+          *``` * * * * * bash (The whole path to host_usage.sh file) localhost 5432 host_agent postgres psql_password > /tmp/host_usage.log ```
