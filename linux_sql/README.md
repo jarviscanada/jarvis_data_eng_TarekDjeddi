@@ -87,5 +87,4 @@ crontab -e
 * crontab:
      * This script allows the continuous execution (every minute) of host_usage.sh script: 
        1. Edit crontab: ``` crontab -e ```
-       2. Add the below code to the crontab editor:
-          *``` * * * * * bash (The whole path to host_usage.sh file) localhost 5432 host_agent postgres psql_password > /tmp/host_usage.log ```
+       2. Add this line to the crontab editor to excute the file every minute: ``` * * * * * bash (The whole path to host_usage.sh file) localhost 5432 host_agent postgres psql_password > /tmp/host_usage.log ```
