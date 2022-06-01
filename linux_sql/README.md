@@ -121,3 +121,5 @@ disk_available | INTEGER | NOT NULL
 * __psql_docker.sh:__ was tested by using ``` docker container ls -a -f name=jrvs-psql ``` which gives us information about jrvs-psql container like when it was created and if it's running or not.
 * __host_info.sh & host_usage.sh:__ were tested by using Data Minipulation Language (DML) statments in PSQL, for example: (SELECT * FROM host_usage;) and see if the new data has been added to the table since host_usage.sh should be excuted every minute. host_usage.sh can also be tested by typing ``` bash [the whole path of host_info.sh] localhost 5432 host_agent postgres password > /tmp/host_usage.log ``` and see if it executed successfully.  
 * __ddl.sql & queries.sql:__ were tested by excuting their statments in PSQL.
+# Deployment
+Docker is installed to allow us to manage PostgreSQL database. crontab is used to excute host_usage.sh every minute and store recourse usage data in a table in the database to monitor the usage data. Git was used to upload files into the GitHub repository based on the GitFlow process. 
