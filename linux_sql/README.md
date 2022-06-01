@@ -118,4 +118,5 @@ cpu_kernel | DECIMAL | NOT NULL
 disk_io | INTEGER | NOT NULL
 disk_available | INTEGER | NOT NULL
 # Test
-* ``` psql_docker.sh ```: was tested by using ``` docker container ls -a -f name=jrvs-psql ``` which gives information about jrvs-psql container.
+* __psql_docker.sh__: was tested by using ``` docker container ls -a -f name=jrvs-psql ``` which gives us information about jrvs-psql container like when it was created and if it's running or not.
+* __host_info.sh and host_usage.sh__: were tested by using Data Minipulation Language (DML) statments in PSQL, for example: (SELECT * FROM host_usage;) and see if the new data has been added to the table since host_usage.sh should be excuted every minute.
