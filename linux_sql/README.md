@@ -53,3 +53,5 @@ crontab -e
 4. Create host_info.sh and host_usage.sh scripts for extracting hardware specification data and resource usages data respectively and then store them is the PostgreSQL database tables.
 5. Continuously collect usage data by using Crontab to excute the host_usage.sh script every minute.
 6. Write SQL Queries that group hosts by CPU number and memory size (GROUP BY), calculate the percentage average used memory over 5 minute intervals where used memory = total memory - free memory (Aggregate functions and create round function), and detect host failures (Aggregate functions).
+
+![host_agent-db](./assets/host_agent-db.png)
