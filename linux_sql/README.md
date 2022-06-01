@@ -12,3 +12,8 @@ Technolgies that been used:
   * GitHub
 
 # Quick Start
+* Start / Stop / Create psql instance:
+ * Start:  
+```
+./scripts/psql_docker.sh start
+```
