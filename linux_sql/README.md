@@ -12,19 +12,10 @@ Technolgies that been used:
   * GitHub
 
 # Quick Start
-* Create / Stard / Stop psql instance:
-    * Create psql instance: 
-     ```
-     ./scripts/psql_docker.sh create db_username db_password
-     ```
+* Start psql instance using psql_docker.sh:
     * Start psql instance: 
      ```
      ./scripts/psql_docker.sh start
-     ```
-
-    * Stop psql instance:  
-     ```
-     ./scripts/psql_docker.sh stop
      ```
 * Create tables using ddl.sql in the host_agent database:
 ```
@@ -54,6 +45,20 @@ crontab -e
 5. Continuously collect usage data by using Crontab to excute the host_usage.sh script every minute.
 6. Write SQL Queries that group hosts by CPU number and memory size (GROUP BY), calculate the percentage average used memory over 5 minute intervals where used memory = total memory - free memory (Aggregate functions and create round function), and detect host failures (Aggregate functions).
 
-# Architecture
+## Architecture
 ![host_agent_db](https://user-images.githubusercontent.com/97988554/171469271-e3958e5d-ffc7-49c5-ae41-2b19ef4e34cc.jpg)
+
+## Scripts
+* psql_docker.sh:
+    * This script can create, start, or stop a PSQL docker container that contains the PSQL database: 
+     ```
+     # Create PSQL docker container:
+     ./scripts/psql_docker.sh create db_username db_password
+
+     # Start PSQL docker container:
+     ./scripts/psql_docker.sh start
+
+     # Stop PSQL docker container:
+     ./scripts/psql_docker.sh stop
+     ```
 
