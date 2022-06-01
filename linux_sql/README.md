@@ -71,6 +71,8 @@ crontab -e
       * L2_cache (cpu cache memory)
       * total_mem (total memory)
       * timestamp (current time in UTC) 
+    * Usage:
+      * ``` ./scripts/host_info.sh localhost 5432 host_agent postgres psql_password ```
 * host_usage.sh:
     * This script collects resource usage data such as:
       * timestamp
@@ -80,3 +82,5 @@ crontab -e
       * cpu_kernel (Percentage of cpu kernel)
       * disk_io (measures active disk I/O time)
       * disk_available (disk space)
+* crontab:
+     * This script allows host_usage.sh to excute every minute 
