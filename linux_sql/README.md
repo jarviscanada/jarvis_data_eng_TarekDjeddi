@@ -94,4 +94,4 @@ crontab -e
       2. Average used memory in percentage over 5 mins interval for each host.
       3. Detect host failures whenever it inserts less than three data points within a 5-min interval.
 ## Database Modeling
-* ``` host_info ``` table:
+``` host_info ``` table:
