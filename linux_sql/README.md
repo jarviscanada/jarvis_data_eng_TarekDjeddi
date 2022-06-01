@@ -61,4 +61,15 @@ crontab -e
      # Stop PSQL docker container:
      ./scripts/psql_docker.sh stop
      ```
+* host_info.sh: 
+    * This script collects hardware specifications data such as:
+      * hostname
+      * cpu_number
+      * cpu_architecture
+      * cpu_model
+      * cpu_mhz: cpu clock rate
+      * L2_cache: cpu cache memory
+      * total_mem: total memory
+      * timestamp: current time in UTC 
+
 
