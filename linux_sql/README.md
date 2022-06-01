@@ -67,9 +67,16 @@ crontab -e
       * cpu_number
       * cpu_architecture
       * cpu_model
-      * cpu_mhz: cpu clock rate
-      * L2_cache: cpu cache memory
-      * total_mem: total memory
-      * timestamp: current time in UTC 
-
-
+      * cpu_mhz (cpu clock rate)
+      * L2_cache (cpu cache memory)
+      * total_mem (total memory)
+      * timestamp (current time in UTC) 
+* host_usage.sh:
+    * This script collects resource usage data such as:
+      * timestamp
+      * host_id
+      * memory_free
+      * cpu_idle (Percentage of cpu when there is no program running)
+      * cpu_kernel (Percentage of cpu kernel)
+      * disk_io (measures active disk I/O time)
+      * disk_available (disk space)
