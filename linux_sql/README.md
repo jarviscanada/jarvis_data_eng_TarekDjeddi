@@ -87,4 +87,9 @@ crontab -e
 * crontab:
      * This script allows the continuous execution (every minute) of host_usage.sh script: 
        1. Edit crontab: ``` crontab -e ```
-       2. Add this line to the crontab editor to excute the file every minute: ``` * * * * * bash (The whole path to host_usage.sh file) localhost 5432 host_agent postgres psql_password > /tmp/host_usage.log ```
+       2. Add this line to the crontab editor to excute the file every minute: ``` * * * * * bash [The whole path to host_usage.sh file] localhost 5432 host_agent postgres psql_password > /tmp/host_usage.log ```
+* queries.sql:
+    * This scripts resolves three business problems:
+      1. Group hosts by CPU number and sort by their memory size in descending order(largest memory size will be displayed at the first entry or row).
+      2. Average used memory in percentage over 5 mins interval for each host.
+      3. Detect host failures whenever it inserts less than three data points within a 5-min interval.
