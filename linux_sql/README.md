@@ -1,6 +1,6 @@
 # Linux Cluster Monitoring Agent
 # Introduction
-This project will allow Jarvis Linux Cluster Administration (LCA) team to track hardware information and recourse usage of each node in real-time, which are running on CentOS 7. This is done by gathering server usage data such as: available memory, disk space, cpu idle, and cpu kernel, ..etc. These information are collected and saved in a PostgreSQL database automatically evey minute in the background. On the other hand, the hardware specifications data like: system hostname, number of CPU, CPU architecture, ... etc. They are assumed to be static, which means that they will be collected once only. <br/> 
+This project will allow Jarvis Linux Cluster Administration (LCA) team to track hardware information and recourse usage of each node in real-time, which are running on CentOS 7. This is done by gathering server usage data suchas: Available memory, Disk space, CPU idle, and CPU kernel, ..etc. These data are collected and saved in a PostgreSQL database automatically every minute in the background. On the other hand, the hardware specifications data like System hostname, Number of CPU, CPU architecture, ... etc. They are assumed to be static, which means that they will be collected once only. <br/> 
 <br/>
 Technolgies that been used:
   * IntelliJ IDEA
@@ -41,8 +41,8 @@ crontab -e
 1. Setup GitHub using Git.
 2. Install Docker and Provision a PSQL instance.
 3. Create a ddl.sql script that will create two tables: a table for host hardware specification data and the second table for resource usage data.
-4. Create host_info.sh and host_usage.sh scripts for extracting hardware specification data and resource usages data respectively and then store them is the PostgreSQL database tables.
-5. Continuously collect usage data by using Crontab to excute the host_usage.sh script every minute.
+4. Create host_info.sh and host_usage.sh scripts for extracting hardware specification data and resource usage data respectively and then store them in the PostgreSQL database tables.
+5. Continuously collect usage data by using Crontab to execute the host_usage.sh script every minute.
 6. Write SQL Queries that group hosts by CPU number and memory size (GROUP BY), calculate the percentage average used memory over 5 minute intervals where used memory = total memory - free memory (Aggregate functions and create round function), and detect host failures (Aggregate functions).
 
 # Architecture
@@ -67,8 +67,8 @@ crontab -e
       * cpu_number
       * cpu_architecture
       * cpu_model
-      * cpu_mhz (cpu clock rate)
-      * L2_cache (cpu cache memory)
+      * cpu_mhz (CPU clock rate)
+      * L2_cache (CPU cache memory)
       * total_mem (total memory)
       * timestamp (current time in UTC) 
     * Usage:
@@ -78,8 +78,8 @@ crontab -e
       * timestamp
       * host_id
       * memory_free
-      * cpu_idle (Percentage of cpu when there is no program running)
-      * cpu_kernel (Percentage of cpu kernel)
+      * cpu_idle (percentage of CPU when there is no program running)
+      * cpu_kernel (percentage of CPU kernel)
       * disk_io (measures active disk I/O time)
       * disk_available (disk space)
     * Usage:
@@ -119,10 +119,10 @@ disk_io | INTEGER | NOT NULL
 disk_available | INTEGER | NOT NULL
 # Test
 * __psql_docker.sh:__ was tested by using ``` docker container ls -a -f name=jrvs-psql ``` which gives us information about jrvs-psql container like when it was created and if it's running or not.
-* __host_info.sh & host_usage.sh:__ were tested by using Data Minipulation Language (DML) statments in PSQL, for example: (SELECT * FROM host_usage;) and see if the new data has been added to the table since host_usage.sh should be excuted every minute. host_usage.sh can also be tested by typing ``` bash [the whole path of host_info.sh] localhost 5432 host_agent postgres password > /tmp/host_usage.log ``` and see if it executed successfully.  
+* __host_info.sh & host_usage.sh:__ were tested by using Data Manipulation Language (DML) statments in PSQL, for example: (SELECT * FROM host_usage;) and see if the new data has been added to the table since host_usage.sh should be executed every minute. host_usage.sh can also be tested by typing ``` bash [the whole path of host_info.sh] localhost 5432 host_agent postgres password > /tmp/host_usage.log ``` and see if it executed successfully.  
 * __ddl.sql & queries.sql:__ were tested by excuting their statments in PSQL.
 # Deployment
-Docker is installed to allow us to manage PostgreSQL database. Crontab is used to excute host_usage.sh every minute and store recourse usage data in a host_usage table in the PostgreSQL database to monitor the usage data. Git was used to upload files into the GitHub repository based on the GitFlow process. 
+Docker is installed to allow us to manage PostgreSQL database. Crontab is used to execute host_usage.sh every minute and store recourse usage data in a host_usage table in the PostgreSQL database to monitor the usage data. Git was used for uploading files into the GitHub repository based on the GitFlow process. 
 # Improvements
-1. I would say maybe increaseing the execution time of the host_usage.sh script because it's running every minute which will give us many entries in host_usage table or maybe delete some old data when the entries reach 50 0r 100 for example.
-2.  Adding more sample data to the host_info table and add more sql business problems.
+1. I would say maybe increasing the execution time of the host_usage.sh script because it's running every minute which will give us many entries in host_usage table or maybe delete some old data when the entries reach 50 0r 100 for example.
+2.  Adding more sample data to the host_info table and adding more SQL business problems.
