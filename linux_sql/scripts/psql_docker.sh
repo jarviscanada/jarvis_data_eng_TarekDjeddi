@@ -7,7 +7,7 @@ db_password=$3
 #checks the status of the docker, if it is running continuo. If not, start docker
 sudo systemctl status docker || sudo systemctl start docker
 
-#check container status (try the following cmds on terminal)
+#check container status
 docker container inspect jrvs-psql
 
 #returns the exit value of the last executed command
