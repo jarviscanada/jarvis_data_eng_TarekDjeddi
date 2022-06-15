@@ -46,7 +46,7 @@ crontab -e
 6. Write SQL Queries that group hosts by CPU number and memory size (GROUP BY), calculate the percentage average used memory over 5 minute intervals where used memory = total memory - free memory (Aggregate functions and create round function), and detect host failures (Aggregate functions).
 
 # Architecture
-![host_agent_db](https://user-images.githubusercontent.com/97988554/171469271-e3958e5d-ffc7-49c5-ae41-2b19ef4e34cc.jpg)
+![host_agent-db](https://user-images.githubusercontent.com/97988554/173858848-6f9ce3e8-19d7-4734-acdd-e10af25cba5e.jpg)
 
 # Scripts
 * psql_docker.sh:
