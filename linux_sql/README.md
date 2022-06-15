@@ -1,6 +1,6 @@
 # Linux Cluster Monitoring Agent
 # Introduction
-This project will allow Jarvis Linux Cluster Administration (LCA) team to track hardware information and recourse usage of each node in real-time, which are running on CentOS 7. This is done by gathering server usage data suchas: Available memory, Disk space, CPU idle, and CPU kernel, ..etc. These data are collected and saved in a PostgreSQL database automatically every minute in the background. On the other hand, the hardware specifications data like System hostname, Number of CPU, CPU architecture, ... etc. They are assumed to be static, which means that they will be collected once only. <br/> 
+This project will allow Jarvis Linux Cluster Administration (LCA) team to track hardware information and recourse usage of each node in real-time, which are running on CentOS 7. This is done by gathering server usage data suchas: Available memory, Disk space, CPU idle, and CPU kernel and so on. These data are collected and saved in a PostgreSQL database automatically every minute in the background. On the other hand, the hardware specifications data like System hostname, Number of CPU, CPU architecture and so on. They are assumed to be static, which means that they will be collected once only. <br/> 
 <br/>
 Technolgies that been used:
   * IntelliJ IDEA
