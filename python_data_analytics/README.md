@@ -18,7 +18,7 @@ The LGS IT team shared a SQL file containing the transaction data between 01/12/
 ![Python_data_diagram](https://user-images.githubusercontent.com/97988554/174166771-fbcc008b-e9e6-440c-bd39-142210b01d11.jpg)
 
 ## Data Analytics and Wrangling
-[Link for the visualization and analyzation code on LGS data](./python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb)
+[Link for the visualization and analyzation code on LGS data]([./python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb](https://github.com/jarviscanada/jarvis_data_eng_TarekDjeddi/blob/develop/python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb))
 
 ### Propositions for Marketing Strategy:
 * The LGS marketing team should reach out to can't lose group, which are customers who have not made a purchase recently but when they do, they make many purchases. LGS team may want to give a discount and gift campaign, make recommendations based on their previous activity (purchased and viewed items), and try to contact them and see which products that had bad experince and explain to what you will to fix that. These customers would appriciate that the store is listening to their complains and trying to solve them.
