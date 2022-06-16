@@ -14,8 +14,10 @@ Technolgies that been used:
 # Implementaion
 ## Online Store Cloud Architecture
 The LGS IT team shared a SQL file containing the transaction data between 01/12/2009 and 09/12/2011 with jarvis team since they are not allowed to work in the LGS Azure environment. The diagram bellow is provided by LGS IT team. The architecture of this project consists of two parts: the LGS Azure environment part, and the Jarvis consulting data analytics part. The LGS Azure environment part, is the web application containing the front-end and backend APIs. In the front-end, There is a Content Delivery Network (CDN) which is referred to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, images, and videos (As illustrated in the diagram). The backend API is used to store transactional data in Azure SQL Server, it consists of a bunch of microservices done in Springboot or other web applications. The web application is running inside containers which are managed by Kubernetes. After that, the transactional data (OLTP) were transfered to jarvis's PostgreSQL data warehouse OLAP by performing Extract, Transform, Load (ETL). Finally, connecting Jupyter Notebook to the data warehouse to get access to the data and start visulaizating and analyzing LGS data.  
+![Python_data_diagram](https://user-images.githubusercontent.com/97988554/174166771-fbcc008b-e9e6-440c-bd39-142210b01d11.jpg)
+
 <br/> <br/>
-![Python_data_diagram]([https://user-images.githubusercontent.com/97988554/174128383-62f57c5c-c349-4a69-b564-fba36081f6dc.jpg](https://github.com/jarviscanada/jarvis_data_eng_TarekDjeddi/blob/develop/python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb)
+
 ## Data Analytics and Wrangling
 [Link for the visualization and analyzation code on LGS data](./python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb)
 
