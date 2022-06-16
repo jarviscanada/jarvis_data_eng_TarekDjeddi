@@ -12,4 +12,7 @@ Technolgies that been used:
   * Data visulaization
 
 # Implementaion
-## Project Architecture
+## Online Store Cloud Architecture
+The LGS IT team shared a SQL file containing the transaction data between 01/12/2009 and 09/12/2011 with jarvis team since they are not allowed to work in the LGS Azure environment. The diagram bellow is provided by LGS IT team.
+<br/> <br/>
+![Python_data_diagram](https://user-images.githubusercontent.com/97988554/174128383-62f57c5c-c349-4a69-b564-fba36081f6dc.jpg)
