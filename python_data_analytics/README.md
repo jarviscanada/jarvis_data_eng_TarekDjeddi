@@ -20,10 +20,10 @@ The LGS IT team shared a SQL file containing the transaction data between 01/12/
 [Link to Analysis (Jupyter Notebook)](./retail_data_analytics_wrangling.ipynb)
 
 ### Propositions for Marketing Strategy:
-* The LGS marketing team should reach out to can't lose group, which are customers who have not made a purchase recently but when they do, they make many purchases. LGS team may want to give a discount and gift campaign, make recommendations based on their previous activity (purchased and viewed items), and try to contact them and see which products that had bad experince and explain to what you will to fix that. These customers would appriciate that the store is listening to their complians and trying to solve them.
-* They might also focus on At risk, and Promising Segments. By giving them discounts since they made recent purchases and they are interested in the products and motivating them to make more purchases. These two segments can increase the revenue dramatically of the store. Also, without forgeting about Loyal and Champions Segments, which are very essentials for the revenue of the store.
+* The LGS marketing team should reach out to can't lose group, which are customers who have not made a purchase recently but when they do, they make many purchases. LGS team may want to give a discount and gift campaign, make recommendations based on their previous activity (purchased and viewed items), and try to contact them and see which products that had bad experince and explain to what you will to fix that. These customers would appriciate that the store is listening to their complains and trying to solve them.
+* They might also focus on At risk, and Promising Segments. By giving them discounts since they made recent purchases and they are interested in the products and motivating them to make more purchases. These two segments can increase the revenue dramatically of the store. Also, without forgeting about Loyal and Champions Segments, which are very essential for the revenue of the store.
 
 # Improvements
-
- 
-     
+* We could explore top countries and products in terms of sales and focus more on them or investigate why customers in some countries are not attracted to LGS products.
+* We could create a machine learning model like ARIMA or Recurrent Neural Networks (RNN) to forcast the sales.
+* We could use Natural language processing (NLP) technique which wil help us for analyzinf customer reviews on products.
