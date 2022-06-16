@@ -17,3 +17,4 @@ The LGS IT team shared a SQL file containing the transaction data between 01/12/
 <br/> <br/>
 ![Python_data_diagram](https://user-images.githubusercontent.com/97988554/174128383-62f57c5c-c349-4a69-b564-fba36081f6dc.jpg)
 ## Data Analytics and Wrangling
+[Link to Analysis (Jupyter Notebook)](./retail_data_analytics_wrangling.ipynb)
