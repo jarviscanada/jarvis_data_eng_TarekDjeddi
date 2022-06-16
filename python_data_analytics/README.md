@@ -18,3 +18,12 @@ The LGS IT team shared a SQL file containing the transaction data between 01/12/
 ![Python_data_diagram](https://user-images.githubusercontent.com/97988554/174128383-62f57c5c-c349-4a69-b564-fba36081f6dc.jpg)
 ## Data Analytics and Wrangling
 [Link to Analysis (Jupyter Notebook)](./retail_data_analytics_wrangling.ipynb)
+
+### Propositions for Marketing Strategy:
+* The LGS marketing team should reach out to can't lose group, which are customers who have not made a purchase recently but when they do, they make many purchases. LGS team may want to give a discount and gift campaign, make recommendations based on their previous activity (purchased and viewed items), and try to contact them and see which products that had bad experince and explain to what you will to fix that. These customers would appriciate that the store is listening to their complians and trying to solve them.
+* They might also focus on At risk, and Promising Segments. By giving them discounts since they made recent purchases and they are interested in the products and motivating them to make more purchases. These two segments can increase the revenue dramatically of the store. Also, without forgeting about Loyal and Champions Segments, which are very essentials for the revenue of the store.
+
+# Improvements
+
+ 
+     
