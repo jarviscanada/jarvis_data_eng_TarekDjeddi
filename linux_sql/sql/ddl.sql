@@ -1,5 +1,3 @@
--- Connect to host_agent
-\c host_agent;
 
 -- Create host_info (hardware specifications) table if not created already
 CREATE TABLE IF NOT EXISTS  PUBLIC.host_info(
