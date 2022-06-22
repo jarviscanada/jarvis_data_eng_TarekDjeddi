@@ -18,7 +18,7 @@ The LGS IT team shared a SQL file containing the transaction data between 01/12/
 ![Python_data_diagram](https://user-images.githubusercontent.com/97988554/174166771-fbcc008b-e9e6-440c-bd39-142210b01d11.jpg)
 
 ## Data Analytics and Wrangling
-[Link for the visualization and analyzation code on LGS data](retail_data_analytics_wrangling.ipynb`)
+[Link for the visualization and analyzation code on LGS data](`./retail_data_analytics_wrangling.ipynb`)
 
 ### Propositions for Marketing Strategy:
 * The LGS marketing team should reach out to the can't lose group, which are customers who have not made a purchase recently but when they do, they spend a lot of money. LGS team may want to give a discount and gift campaign, make recommendations based on their previous activity (purchased and viewed items), try to contact them and see which products they had a bad experience with, and explain what you will to fix that. These customers would appreciate that the store is listening to their complaints and trying to solve them.
