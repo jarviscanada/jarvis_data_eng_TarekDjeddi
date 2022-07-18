@@ -83,7 +83,7 @@ professional_experience:
     company: "Jarvis"
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Working with a team in an Agile environment. Developed a Linux Cluster Monitoring Agent to help the Linux Cluster Administrator team monitor the hardware specifications and resource usage. Visualized and analized London Gift Shop data to help them make decisions to increase their revenue. Used Hadoop to analyze big data, optimize query execution time, and gain an in-depth understanding of Hadoop key components such as HDFS, MapReduce, and YARN.
+    description: Working with a team in an Agile environment. Developed a Linux Cluster Monitoring Agent to help the Linux Cluster Administrator team monitor the hardware specifications and resource usage. Visualized and analyzed London Gift Shop data to help them make decisions to increase their revenue. Used Hadoop to analyze big data, optimize query execution time, and gain an in-depth understanding of Hadoop key components such as HDFS, MapReduce, and YARN.
   - title: "Fire Alarm Technician"
     company: "Amike Fire Alarm Security Service"
     duration: "2020-2021"
