@@ -36,7 +36,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_TarekDjedd
 
 ## Professional Experiences
 
-**Data Engineer/Data Analyst, Jarvis (2022-present)**: Working with a team in an Agile environment. Developed a Linux Cluster Monitoring Agent to help the Linux Cluster Administrator team monitor the hardware specifications and resource usage. Visualized and analized London Gift Shop data to help them make decisions to increase their revenue. Used Hadoop to analyze big data, optimize query execution time, and gain an in-depth understanding of Hadoop key components such as HDFS, MapReduce, and YARN.
+**Data Engineer/Data Analyst, Jarvis (2022-present)**: Working with a team in an Agile environment. Developed a Linux Cluster Monitoring Agent to help the Linux Cluster Administrator team monitor the hardware specifications and resource usage. Visualized and analyzed London Gift Shop data to help them make decisions to increase their revenue. Used Hadoop to analyze big data, optimize query execution time, and gain an in-depth understanding of Hadoop key components such as HDFS, MapReduce, and YARN.
 
 **Fire Alarm Technician, Amike Fire Alarm Security Service (2020-2021)**: Assessing the performance of different systems, and writing inspection and verification reports. Communicating with clients to understand their problems and solve them.
 
