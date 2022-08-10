@@ -1,0 +1,7 @@
+pandas==1.1.5
+pip==9.0.3
+setuptools==39.2.0
+six==1.16.0
+psycopg2-binary==2.9.3
+python-dateutil==2.8.2
+pytz==2022.1
