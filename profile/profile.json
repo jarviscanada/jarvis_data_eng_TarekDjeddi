@@ -45,7 +45,7 @@
       "name": "Unsupervised Machine Learning"
     },
     {
-      "description": "We used a Regression discontinuity design (RDD) method to visiliaze and identify the efect of COVID-19 In Quebec over three different events\":\" The 20/3/2020 lockdown, The Reopening of Schools 31/08/2020, and The 25/12/2020 lockdown.",
+      "description": "We used a Regression discontinuity design (RDD) method to visiliaze and identify the efect of COVID-19 In Quebec over three different events\"\\:\" The 20/3/2020 lockdown, The Reopening of Schools 31/08/2020, and The 25/12/2020 lockdown.",
       "git_url": "https://github.com/TarekDjeddi/ds-regression-project-2",
       "name": "Regression"
     },
@@ -129,5 +129,5 @@
       "Git"
     ]
   },
-  "summary": "I am a Data Engineer at Jarvis Consulting Group, I am working in an Agile enviroment and I have worked on several projects where I used defferent tools like Python, SQL, Docker, Data Analysis, Bach Scripts, etc. I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling such as\":\" visulazing data, cleaning and preparing data, anaylyizing data to make useful insigts, and creating various machine learning modele. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst."
+  "summary": "I am a Data Engineer at Jarvis Consulting Group, I am working in an Agile enviroment and I have worked on several projects where I used defferent tools like Python, SQL, Docker, Data Analysis, Bach Scripts, etc. I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling such as\"\\:\" visulazing data, cleaning and preparing data, anaylyizing data to make useful insigts, and creating various machine learning modele. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst."
 }
