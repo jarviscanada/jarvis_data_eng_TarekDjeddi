@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_TarekDjedd
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a Data Engineer at Jarvis Consulting Group, I am working in an Agile enviroment and I have worked on several projects where I used defferent tools like Python, SQL, Docker, Data Analysis, Bach Scripts, etc. I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling such as: visulazing data, cleaning and preparing data, anaylyizing data to make useful insigts, and creating various machine learning modele. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst.
+summary: I am a Data Engineer at Jarvis Consulting Group, I am working in an Agile enviroment and I have worked on several projects where I used defferent tools like Python, SQL, Docker, Data Analysis, Bach Scripts, etc. I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling such as":" visulazing data, cleaning and preparing data, anaylyizing data to make useful insigts, and creating various machine learning modele. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -67,7 +67,7 @@ highlighted_projects:
     description: We devoloped a model to cluster COVID-19 tweets using Natural Language Processing (NLP). The dataset were generated Twitter API, dimensionality reduction were used to visulize the clustered data in Two-dimensional space.
   - name: "Regression"
     git_url: "https://github.com/TarekDjeddi/ds-regression-project-2"
-    description: We used a Regression discontinuity design (RDD) method to visiliaze and identify the efect of COVID-19 In Quebec over three different events: The 20/3/2020 lockdown, The Reopening of Schools 31/08/2020, and The 25/12/2020 lockdown.
+    description: We used a Regression discontinuity design (RDD) method to visiliaze and identify the efect of COVID-19 In Quebec over three different events":" The 20/3/2020 lockdown, The Reopening of Schools 31/08/2020, and The 25/12/2020 lockdown.
   - name: "Algorithms"
     git_url: "https://github.com/TarekDjeddi/ds-algorithm-project-1"
     description: Nearest Neighbor Algorithm is used on a given list of bank locations, how much money each one holds and the time it would take to rob each one. The algorithm is separated into several functions which used together to return a list of bank ID's that could be robbed in 24 hour to make as much money as possible and then escape.
@@ -96,18 +96,18 @@ education:
   - school_name: "Concordia University"
     duration: "2022-2022 Intensive mode"
     degree: "Diploma in Data Science"
-    department: "Data Science"
+    department: "  "
     awards_achievements:
   - school_name: "Concordia University"
     duration: "2016-2018"
     degree: "Master of Applied Science in Electrical and Computer Engineering"
-    department: "Electrical and Computer Engineering"
+    department: "   "
     awards_achievements:
       - "GPA: 3.68/4.3"
   - school_name: "Ajman Univerity, United Arab Emirates"
     duration: "2012-2016"
     degree: "Bachelor of Science in Electrical Engineering/Telecommunication"
-    department: "Electrical Engineering"
+    department: "   "
     awards_achievements:
       - "Merit: 1st in cohort"
       - "GPA: 3.8/4"

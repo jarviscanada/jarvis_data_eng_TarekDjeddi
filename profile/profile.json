@@ -3,8 +3,8 @@
     {
       "awards_achievements": null,
       "degree": "Diploma in Data Science",
-      "department": "Data Science",
-      "duration": "2022-2022 (Intensive mode 3 Months)",
+      "department": "  ",
+      "duration": "2022-2022 Intensive mode",
       "school_name": "Concordia University"
     },
     {
@@ -12,7 +12,7 @@
         "GPA: 3.68/4.3"
       ],
       "degree": "Master of Applied Science in Electrical and Computer Engineering",
-      "department": "Electrical and Computer Engineering",
+      "department": "   ",
       "duration": "2016-2018",
       "school_name": "Concordia University"
     },
@@ -22,7 +22,7 @@
         "GPA: 3.8/4"
       ],
       "degree": "Bachelor of Science in Electrical Engineering/Telecommunication",
-      "department": "Electrical Engineering",
+      "department": "   ",
       "duration": "2012-2016",
       "school_name": "Ajman Univerity, United Arab Emirates"
     }
@@ -30,44 +30,44 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_TarekDjeddi",
   "highlighted_projects": [
     {
-      "description": "Stock Market Forecasting using Recurrent neural network (RNN) and AutoRegressive Integrated Moving Average (ARIMA).",
+      "description": "I created two Stock Market Forecasting Models using Recurrent neural network (RNN) and AutoRegressive Integrated Moving Average (ARIMA). The NASDAQ data were gathered using Yahoo Finance API. The data were splitted into train and test data, and the test data were compared with the predictated data to specify the performance of the two models.",
       "git_url": "https://github.com/TarekDjeddi/final_project/tree/main",
       "name": "Deep Learning"
     },
     {
-      "description": "Image Classication using Convolutional Neural Network (CNN) on 400-bird species.",
+      "description": "We created an Image Classication Model on 400-bird speccies and tested the performance of our model, the model was created using Convolutional Neural Network (CNN). The Bird Species dataset was downloaded from Kaggle and Google Colab has been used to boost the model's training time",
       "git_url": "https://github.com/TarekDjeddi/ds-predictive-modelling-project-4",
       "name": "Predictive Modelling"
     },
     {
-      "description": "Natural Language Processing (NLP), Dimensionality Reduction, and Clustering on COVID-19 tweets (API).",
+      "description": "We devoloped a model to cluster COVID-19 tweets using Natural Language Processing (NLP). The dataset were generated Twitter API, dimensionality reduction were used to visulize the clustered data in Two-dimensional space.",
       "git_url": "https://github.com/TarekDjeddi/ds-project-data-engineering-3",
       "name": "Unsupervised Machine Learning"
     },
     {
-      "description": "Regression discontinuity design (RDD) to identify the eect of COVID-19 In Quebec.",
+      "description": "We used a Regression discontinuity design (RDD) method to visiliaze and identify the efect of COVID-19 In Quebec over three different events\":\" The 20/3/2020 lockdown, The Reopening of Schools 31/08/2020, and The 25/12/2020 lockdown.",
       "git_url": "https://github.com/TarekDjeddi/ds-regression-project-2",
       "name": "Regression"
     },
     {
-      "description": "The Big Heist using Nearest Neighbor Algorithm. The bank heist algorithm is separated into several functions which used together to return a list of bank ID's.",
+      "description": "Nearest Neighbor Algorithm is used on a given list of bank locations, how much money each one holds and the time it would take to rob each one. The algorithm is separated into several functions which used together to return a list of bank ID's that could be robbed in 24 hour to make as much money as possible and then escape.",
       "git_url": "https://github.com/TarekDjeddi/ds-algorithm-project-1",
       "name": "Algorithms"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a Linux Cluster Monitoring Agent which helps Jarvis Linux Cluster Administration (LCA) team to track hardware information and recourse usage of each node in real-time, which are running on CentOS. The resource usage data were collected and saved in a PostgreSQL database automatically every minute in the background, while the hardware specifications were assumed to be static, which means that they will be collected once only. Technolgies that been used to successfully develop the project are IntelliJ IDEA, Bash, Docker, PostgreSQL, SQL, Git, and GitHub.",
+      "description": "Developed a Linux Cluster Monitoring Agent which helps Jarvis Linux Cluster Administration (LCA) team to track hardware information and resource usage of each node in real-time, which are running on CentOS. The resource usage data were collected and saved in a PostgreSQL database automatically every minute, while the hardware specifications were assumed to be static, which means that they will be collected once only. Furthurmore, two tables were created using Data Definition Language (DDL) for hardware specifications and resource usage, SQL were used to solve some businies problems. Technolgies that been used to successfully develop the project are IntelliJ IDEA, Bash, Docker, PostgreSQL, SQL, Git, and GitHub.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": "Developed a Linux Cluster Monitoring Agent which helps Jarvis Linux Cluster Administration (LCA) team to track hardware information and recourse usage of each node in real-time, which are running on CentOS 7. The resource usage data were collected and saved in a PostgreSQL database automatically every minute in the background, while the hardware specifications were assumed to be static, which means that they will be collected once only. Technologies that have been used to successfully develop the project are IntelliJ IDEA, Bash, Docker, PostgreSQL, SQL, Git, and GitHub.",
+      "description": "Developed a proof-of-concept (POC) project to help an online store that sells gift-ware called London Gift Shop (LGS) by visualizing and analyzing their data to understand their customer's behavior, which will help the LGS marketing team to make decisions in the hope of increasing their revenue since it did not grow in recent years. LGS retail data was stored in a PostgreSQL database and provisioned using a docker container, and then it was connected to the Jupyter Notebook to answer all the business questions. Recency, Frequency, Monetary Value (RFM) analysis were used to quantitatively rank and group their customers in order to identify the best customers and perform targeted marketing campaigns.",
       "git_url": "/python_data_anlytics",
       "name": "Python Data Analytics"
     },
     {
-      "description": "Apache Hadoop is used in this project to process and analyze the World Development Indicators (WDI) dataset, which contains around 21 million data points. We evaluated Core Hadoop components, including MapReduce, HDFS, and YARN. We created three nodes Hadoop clusters (one master and two worker nodes), which are provisioned by the Google Cloud Platform (GCP) DataProc service. Apache Hive and Zeppelin Notebook were used to solve some business problems and analyze the data using HiveQL queries. Optimization techniques like Hive Partition and Columnar File Optimization have been used to speed up the execution time of queries.",
+      "description": "Apache Hadoop is used in this project to process and analyze the World Development Indicators (WDI) dataset, which contains around 21 million data points. This project helped us in evaluating the Hadoop ecosystem and how it interacts with a distributed system for data storage and processing. I provisioned the Hadoop cluster using Google Cloud Platform (GCP) DataProc service with 1 master node and 2 worker nodes. Apache Hive and Zeppelin Notebook were used to solve some business problems and analyze the data using HiveQL queries. Optimization techniques like Hive Partition and Columnar File Optimization have been used to speed up the execution time of queries and compare their performance.",
       "git_url": "/hadoop",
       "name": "Hadoop"
     }
@@ -76,7 +76,8 @@
   "others": [
     {
       "bullets": [
-        "Football",
+        "Published a paper in IEEE and presented it in the 18th International Symposium on Antenna Technology and Applied Electromagnetics (ANTEM), Waterloo, ON,",
+        "Playing soccer on the weekend (Barcelona fan)",
         "Mobile Gamming"
       ],
       "title": "Activities/Hobbies"
@@ -91,13 +92,13 @@
     },
     {
       "company": "Amike Fire Alarm Security Service",
-      "description": "Assessing the performance of different systems, and writing inspection and verification reports. Communicating with clients to understand their problems and solve them.",
+      "description": "Assessing the performance of different systems, writing inspection and verification reports, and communicating with clients to understand their problems and solve them.",
       "duration": "2020-2021",
       "title": "Fire Alarm Technician"
     },
     {
       "company": "Services VortexApp Inc.",
-      "description": "Creating and designing Websites for clients, in English and French. Creating several one-page and multi-page templates. Set up VortexApp phones by enabling the necessary applications for the encrypted phones, and activating SIM Cards.",
+      "description": "Creating and designing Websites for clients, in English and French using HTML and CSS. Creating several one-page and multi-page templates. Set up VortexApp phones by enabling the necessary applications for the encrypted phones, and activating SIM Cards.",
       "duration": "2019-2019",
       "title": "Web Desinger"
     }
@@ -105,7 +106,7 @@
   "skills": {
     "competent": [
       "Linux/Bash",
-      "RDBM",
+      "PostgreSQL Database",
       "Predictive Modeling",
       "Hadoop",
       "Zeppelin Notebook"
@@ -120,13 +121,13 @@
     ],
     "proficient": [
       "Python",
-      "Juypter Notebook",
-      "Machine Learning",
-      "Data Analysis",
       "SQL/HiveQL",
+      "Data Analysis",
+      "Machine Learning",
+      "Juypter Notebook",
       "Agile/Scrum",
       "Git"
     ]
   },
-  "summary": "I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst."
+  "summary": "I am a Data Engineer at Jarvis Consulting Group, I am working in an Agile enviroment and I have worked on several projects where I used defferent tools like Python, SQL, Docker, Data Analysis, Bach Scripts, etc. I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling such as\":\" visulazing data, cleaning and preparing data, anaylyizing data to make useful insigts, and creating various machine learning modele. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst."
 }
