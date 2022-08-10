@@ -1,6 +1,6 @@
 # Tarek Djeddi . Jarvis Consulting
 
-I am a Data Engineer at Jarvis Consulting Group, I am working in an Agile environment and I have worked on several projects where I used different tools like Python, SQL, Docker, Data Analysis, Bach Scripts, etc. I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling such as"\:" visualizing data, cleaning and preparing data, analyzing data to make useful insights, and creating various machine learning models. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst.
+I am a Data Engineer at Jarvis Consulting Group, I am working in an Agile environment and I have worked on several projects where I used different tools like Python, SQL, Docker, Data Analysis, Bach Scripts, etc. I completed a Diploma in Data Science at Concordia University which I took due to my strong interest in data analysis and modeling such as visualizing data, cleaning and preparing data, analyzing data to make useful insights, and creating various machine learning models. I am a holder of a Master of Applied Science in Electrical and Computer Engineering whose thesis focused on modeling and simulating Digitally Controlled Microwave Components for High-Power RADAR Systems. I aspire to build a successful career as a data engineer or as a data analyst.
 
 ## Skills
 
@@ -29,7 +29,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_TarekDjedd
 
 **Unsupervised Machine Learning** [[GitHub](https://github.com/TarekDjeddi/ds-project-data-engineering-3)]: We devoloped a model to cluster COVID-19 tweets using Natural Language Processing (NLP). The dataset were generated Twitter API, dimensionality reduction were used to visulize the clustered data in Two-dimensional space.
 
-**Regression** [[GitHub](https://github.com/TarekDjeddi/ds-regression-project-2)]: We used a Regression discontinuity design (RDD) method to visiliaze and identify the efect of COVID-19 In Quebec over three different events"\:" The 20/3/2020 lockdown, The Reopening of Schools 31/08/2020, and The 25/12/2020 lockdown.
+**Regression** [[GitHub](https://github.com/TarekDjeddi/ds-regression-project-2)]: We used a Regression discontinuity design (RDD) method to visiliaze and identify the efect of COVID-19 In Quebec over The 20/3/2020 lockdown, The Reopening of Schools 31/08/2020, and The 25/12/2020 lockdown.
 
 **Algorithms** [[GitHub](https://github.com/TarekDjeddi/ds-algorithm-project-1)]: Nearest Neighbor Algorithm is used on a given list of bank locations, how much money each one holds and the time it would take to rob each one. The algorithm is separated into several functions which used together to return a list of bank ID's that could be robbed in 24 hour to make as much money as possible and then escape.
 
