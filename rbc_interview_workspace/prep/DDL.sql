@@ -1,0 +1,10 @@
+\c exercises;
+
+CREATE TABLE IF NOT EXISTS DEMO(
+	id INTEGER NOT NULL,
+	emplo VARCHAR NOT NULL,
+	addres VARCHAR NOT NULL
+);
+
+INSERT INTO DEMO
+	VALUES (2, 'Tarek', '5420 rue rivard');
